@@ -1,0 +1,466 @@
+[
+    {
+        "question": "M: 10, N: 20, O: 30, P: 40, Q: 50",
+        "P1": "M < (N + O) < Q",
+        "P2": "N < (O + P) < Q",
+        "C1": "O <= Q",
+        "C2": "P + M <= N",
+        "CorrectAnswer": "4. Only one of C1 and C2 is determinable or C1 and C2 are contradict or one is determinable and other is not. (C1 is true, C2 is false.)"
+    },
+    {
+        "question": "D: 15, E: 25, F: 35, G: 45, H: 55",
+        "P1": "D < (E + F) < H",
+        "P2": "E < (F + G) < H",
+        "C1": "F <= H",
+        "C2": "G + D <= E",
+        "CorrectAnswer": "4. Only one of C1 and C2 is determinable or C1 and C2 are contradict or one is determinable and other is not. (C1 is true, C2 is false.)"
+    },
+    {
+        "question": "K: 5, L: 15, M: 25, N: 35, O: 45",
+        "P1": "K < (L + M) < O",
+        "P2": "L < (M + N) < O",
+        "C1": "M <= O",
+        "C2": "N + K <= L",
+        "CorrectAnswer": "4. Only one of C1 and C2 is determinable or C1 and C2 are contradict or one is determinable and other is not. (C1 is true, C2 is false.)"
+    },
+    {
+        "question": "U: 12, V: 22, W: 32, X: 42, Y: 52",
+        "P1": "U < (V + W) < Y",
+        "P2": "V < (W + X) < Y",
+        "C1": "W <= Y",
+        "C2": "X + U <= V",
+        "CorrectAnswer": "4. Only one of C1 and C2 is determinable or C1 and C2 are contradict or one is determinable and other is not. (C1 is true, C2 is false.)"
+    },
+    {
+        "question": "A: 14, B: 24, C: 34, D: 44, E: 54",
+        "P1": "A < (B + C) < E",
+        "P2": "B < (C + D) < E",
+        "C1": "C <= E",
+        "C2": "D + A <= B",
+        "CorrectAnswer": "4. Only one of C1 and C2 is determinable or C1 and C2 are contradict or one is determinable and other is not. (C1 is true, C2 is false.)"
+    },
+    {
+        "question": "A: 10, B: 20, C: 25, D: 30, E: 35",
+        "P1": "A < (B + C) < E",
+        "P2": "B < (A + D) < E",
+        "C1": "A <= E",
+        "C2": "B + D <= E",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "F: 15, G: 20, H: 25, I: 30, J: 45",
+        "P1": "F < (G + H) < J",
+        "P2": "G < (H + I) < J",
+        "C1": "H <= J",
+        "C2": "I + F <= J",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "K: 5, L: 10, M: 15, N: 20, O: 30",
+        "P1": "K < (L + M) < O",
+        "P2": "L < (M + N) < O",
+        "C1": "M <= O",
+        "C2": "N + K <= O",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "P: 7, Q: 13, R: 20, S: 25, T: 33",
+        "P1": "P < (Q + R) < T",
+        "P2": "Q < (R + S) < T",
+        "C1": "R <= T",
+        "C2": "S + P <= T",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "U: 6, V: 10, W: 14, X: 16, Y: 22",
+        "P1": "U < (V + W) < Y",
+        "P2": "V < (W + X) < Y",
+        "C1": "W <= Y",
+        "C2": "X + U <= Y",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 15, B: 20, C: 30, D: 25, E: 35, F: 40, G: 50, H: 45",
+        "P1": "A < (B + C) < F",
+        "P2": "B < (D + E) < G + F",
+        "C1": "A <= G",
+        "C2": "D + F <= H",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "I: 10, J: 15, K: 20, L: 25, M: 30, N: 35, O: 40, P: 50",
+        "P1": "I < (J + K) < M",
+        "P2": "J < (L + M) < O + N",
+        "C1": "K <= O",
+        "C2": "L + M <= P",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "Q: 10, R: 20, S: 30, T: 25, U: 35, V: 40, W: 50, X: 45",
+        "P1": "Q < (R + S) < V",
+        "P2": "R < (S + T) < U + V",
+        "C1": "S <= W",
+        "C2": "T + U <= X",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 8, B: 12, C: 18, D: 15, E: 25, F: 28, G: 40, H: 30",
+        "P1": "A < (B + C) < F",
+        "P2": "B < (D + E) < G + F",
+        "C1": "A <= G",
+        "C2": "D + F <= H",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "I: 9, J: 11, K: 13, L: 15, M: 20, N: 25, O: 30, P: 40",
+        "P1": "I < (J + K) < M",
+        "P2": "J < (K + L) < O + M",
+        "C1": "K <= O",
+        "C2": "L + M <= P",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 10, B: 20, C: 30, D: 15, E: 35, F: 50, G: 60, H: 40",
+        "P1": "A < (B + C) < F",
+        "P2": "B < (D + E) < G",
+        "C1": "A + D <= H",
+        "C2": "B + F <= G",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "P: 5, Q: 10, R: 15, S: 20, T: 25, U: 30, V: 35, W: 40",
+        "P1": "P < (Q + R) < U",
+        "P2": "Q < (S + T) < W",
+        "C1": "P + S <= V",
+        "C2": "Q + U <= W",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "I: 5, J: 10, K: 15, L: 20, M: 25, N: 30, O: 35, Z: 40",
+        "P1": "I < (J + K) < M",
+        "P2": "J < (L + N) < Z",
+        "C1": "I + L <= O",
+        "C2": "J + M <= Z",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "X: 10, Y: 20, Z: 25, A: 30, B: 35, C: 40, D: 45, E: 50",
+        "P1": "X < (Y + Z) < C",
+        "P2": "Y < (A + B) < E",
+        "C1": "X + A <= D",
+        "C2": "Y + C <= E",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "F: 8, G: 16, H: 24, I: 32, J: 40, K: 48, L: 56, M: 64",
+        "P1": "F < (G + H) < J",
+        "P2": "G < (I + J) < M",
+        "C1": "F + I <= L",
+        "C2": "G + J <= M",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 7, B: 12, C: 18, D: 10, E: 22, F: 30, G: 35, H: 17",
+        "P1": "A < (B + D) < E",
+        "P2": "B < (C + E) < G",
+        "C1": "(A + B) <= F",
+        "C2": "(D + E) <= G",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "P: 15, Q: 25, R: 30, S: 45, T: 50, U: 60, V: 70, W: 90",
+        "P1": "P < (Q + R) < U",
+        "P2": "Q < (S + T) < W",
+        "C1": "(P + S) <= V",
+        "C2": "(Q + U) <= W",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "I: 4, J: 10, K: 20, L: 25, M: 30, N: 35, O: 45, Z: 55",
+        "P1": "I < (J + K) < M",
+        "P2": "J < (L + N) < Z",
+        "C1": "(I + L) <= O",
+        "C2": "(J + M) <= Z",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "X: 6, Y: 12, Z: 18, A: 24, B: 30, C: 36, D: 42, E: 50",
+        "P1": "X < (Y + Z) < C",
+        "P2": "Y < (A + B) < E",
+        "C1": "(X + A) <= D",
+        "C2": "(Y + C) <= E",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "F: 10, G: 20, H: 30, I: 40, J: 50, K: 60, L: 70, M: 80",
+        "P1": "F < (G + H) < J",
+        "P2": "G < (I + J) < M",
+        "C1": "(F + I) <= L",
+        "C2": "(G + J) <= M",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 7, B: 12, C: 18, D: 10, E: 22, F: 30, G: 35, H: 17",
+        "P1": "2*(A + B) < E < (F - D)",
+        "P2": "(G - C) < (2*D + B) < (F + H)",
+        "C1": "(A + B + C) <= F",
+        "C2": "(D + E - A) <= G",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "P: 15, Q: 25, R: 30, S: 45, T: 50, U: 60, V: 70, W: 90",
+        "P1": "(P + Q - R) < 2*S < (T + U)",
+        "P2": "3*Q < (S + R) < (W - V)",
+        "C1": "(P + S - Q) <= V",
+        "C2": "(2*Q + U - S) <= W",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "I: 4, J: 10, K: 20, L: 25, M: 30, N: 35, O: 45, Z: 55",
+        "P1": "(2*I + J) < M < (O - K)",
+        "P2": "(N + J) < (2*L + I) < Z",
+        "C1": "(I + L + K) <= O",
+        "C2": "(J + M - K) <= Z",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "X: 6, Y: 12, Z: 18, A: 24, B: 30, C: 36, D: 42, E: 50",
+        "P1": "(2*X + Z) < (B + Y) < (D + E)",
+        "P2": "(C - X) < (Y + Z + A) < (D + E)",
+        "C1": "(X + A + B) <= D",
+        "C2": "(Y + C - Z) <= E",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 7, B: 12, C: 18, D: 10, E: 22, F: 30, G: 35, H: 17",
+        "P1": "(A + B) < 2*(C + D) < E",
+        "P2": "2*(B + C) < (D + E + F) < G",
+        "C1": "2*(A + D) <= F",
+        "C2": "3*(B + D + E) <= G",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "P: 15, Q: 25, R: 30, S: 45, T: 50, U: 60, V: 70, W: 90",
+        "P1": "(P + Q) < 2*(R + S) < T",
+        "P2": "2*(Q + R) < (S + T + U) < V",
+        "C1": "2*(P + S) <= V",
+        "C2": "3*(Q + S + T) <= W",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "I: 4, J: 10, K: 20, L: 25, M: 30, N: 35, O: 45, Z: 55",
+        "P1": "(I + J) < 2*(K + L) < M",
+        "P2": "2*(J + K) < (L + M + N) < O",
+        "C1": "2*(I + L) <= O",
+        "C2": "3*(J + L + M) <= Z",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "X: 6, Y: 12, Z: 18, A: 24, B: 30, C: 36, D: 42, E: 50",
+        "P1": "(X + Y) < 2*(Z + A) < B",
+        "P2": "2*(Y + Z) < (A + B + C) < D",
+        "C1": "2*(X + A) <= D",
+        "C2": "3*(Y + A + B) <= E",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 8, B: 15, C: 25, D: 30, E: 40, F: 50, G: 75",
+        "P1": "(A + D) < (B + C) < E",
+        "P2": "(A + B) < (C + D) < (E + F)",
+        "C1": "A + B <= D",
+        "C2": "E + F <= G",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "M: 11, N: 17, O: 22, P: 33, Q: 44, R: 55, S: 66",
+        "P1": "(M + P) < (N + O) < Q",
+        "P2": "(M + N) < (O + P) < (Q + R)",
+        "C1": "M + N <= O",
+        "C2": "Q + R <= S",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "W: 20, X: 25, Y: 30, Z: 40, A: 50, B: 60, C: 90",
+        "P1": "(W + Z) < (X + Y) < A",
+        "P2": "(W + X) < (Y + Z) < (A + B)",
+        "C1": "W + X <= Y",
+        "C2": "A + B <= C",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "D: 10, E: 20, F: 30, G: 40, H: 50, I: 60, J: 100",
+        "P1": "(D + G) < (E + F) < H",
+        "P2": "(D + E) < (F + G) < (H + I)",
+        "C1": "D + E <= F",
+        "C2": "H + I <= J",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "U: 10, V: 15, W: 25, X: 35, Y: 50, Z: 70, A: 110",
+        "P1": "(U + X) < (V + W) < Y",
+        "P2": "(U + V) < (W + X) < (Y + Z)",
+        "C1": "U + V <= W",
+        "C2": "Y + Z <= A",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 8, B: 15, C: 25, D: 30, E: 40, F: 50, G: 75",
+        "P1": "(A + D) < (B + C) < E",
+        "P2": "(A + B) < (C + D) < (E + F)",
+        "C1": "A + B + C <= 2*D",
+        "C2": "E + F + A <= G",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "M: 11, N: 17, O: 22, P: 33, Q: 44, R: 55, S: 66",
+        "P1": "(M + P) < (N + O) < Q",
+        "P2": "(M + N) < (O + P) < (Q + R)",
+        "C1": "M + N + O <= 2*P",
+        "C2": "Q + R + M <= S",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "W: 20, X: 25, Y: 30, Z: 40, A: 50, B: 60, C: 90",
+        "P1": "(W + Z) < (X + Y) < A",
+        "P2": "(W + X) < (Y + Z) < (A + B)",
+        "C1": "W + X + Y <= 2*Z",
+        "C2": "A + B + W <= C",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "D: 10, E: 20, F: 30, G: 40, H: 50, I: 60, J: 100",
+        "P1": "(D + G) < (E + F) < H",
+        "P2": "(D + E) < (F + G) < (H + I)",
+        "C1": "D + E + F <= 2*G",
+        "C2": "H + I + D <= J",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "U: 10, V: 15, W: 25, X: 35, Y: 50, Z: 70, A: 110",
+        "P1": "(U + X) < (V + W) < Y",
+        "P2": "(U + V) < (W + X) < (Y + Z)",
+        "C1": "U + V + W <= 2*X",
+        "C2": "Y + Z + U <= A",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "A: 30, B: 25, C: 20, D: 50, E: 70, F: 80, G: 90",
+        "P1": "(A + D) < (B + C) < E",
+        "P2": "(A + B) < (C + D) < (E + F)",
+        "C1": "A + B + C > 2*D",
+        "C2": "E + F + A > G",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "M: 50, N: 40, O: 35, P: 60, Q: 80, R: 90, S: 100",
+        "P1": "(M + P) < (N + O) < Q",
+        "P2": "(M + N) < (O + P) < (Q + R)",
+        "C1": "M + N + O > 2*P",
+        "C2": "Q + R + M > S",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "W: 60, X: 55, Y: 50, Z: 80, A: 100, B: 110, C: 120",
+        "P1": "(W + Z) < (X + Y) < A",
+        "P2": "(W + X) < (Y + Z) < (A + B)",
+        "C1": "W + X + Y > 2*Z",
+        "C2": "A + B + W > C",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "D: 70, E: 65, F: 60, G: 90, H: 110, I: 120, J: 130",
+        "P1": "(D + G) < (E + F) < H",
+        "P2": "(D + E) < (F + G) < (H + I)",
+        "C1": "D + E + F > 2*G",
+        "C2": "H + I + D > J",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "U: 80, V: 75, W: 70, X: 100, Y: 120, Z: 130, A: 140",
+        "P1": "(U + X) < (V + W) < Y",
+        "P2": "(U + V) < (W + X) < (Y + Z)",
+        "C1": "U + V + W > 2*X",
+        "C2": "Y + Z + U > A",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "A: 30, B: 25, C: 20, D: 50, E: 70, F: 80, G: 90",
+        "P1": "(A + D) > (B + C) < E >= F",
+        "P2": "(A + B) > (C + D) < (E + F) >= G",
+        "C1": "A + B + C > 2*E",
+        "C2": "E + F + A > G",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "M: 50, N: 40, O: 35, P: 60, Q: 80, R: 90, S: 100",
+        "P1": "(M + P) > (N + O) < Q >= R",
+        "P2": "(M + N) > (O + P) < (Q + R) >= S",
+        "C1": "M + N + O > 2*Q",
+        "C2": "Q + R + M > S",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "W: 60, X: 55, Y: 50, Z: 80, A: 100, B: 110, C: 120",
+        "P1": "(W + Z) > (X + Y) < A >= B",
+        "P2": "(W + X) > (Y + Z) < (A + B) >= C",
+        "C1": "W + X + Y > 2*A",
+        "C2": "A + B + W > C",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "D: 70, E: 65, F: 60, G: 90, H: 110, I: 120, J: 130",
+        "P1": "(D + G) > (E + F) < H >= I",
+        "P2": "(D + E) > (F + G) < (H + I) >= J",
+        "C1": "D + E + F > 2*H",
+        "C2": "H + I + D > J",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "U: 80, V: 75, W: 70, X: 100, Y: 120, Z: 130, A: 140",
+        "P1": "(U + X) > (V + W) < Y >= Z",
+        "P2": "(U + V) > (W + X) < (Y + Z) >= A",
+        "C1": "U + V + W > 2*Y",
+        "C2": "Y + Z + U > A",
+        "CorrectAnswer": "2. Both C1 and C2 are false."
+    },
+    {
+        "question": "H: 10, I: 20, J: 30, K: 40, L: 50, M: 60, N: 70",
+        "P1": "(H + I) > (J + K) < L > M",
+        "P2": "N > (J + M) < L > H",
+        "C1": "H + I < L",
+        "C2": "N + H > L + M",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "P: 15, Q: 25, R: 35, S: 45, T: 55, U: 65, V: 75",
+        "P1": "(P + Q) < (R + S) < T < U",
+        "P2": "V < (R + U) < T < P",
+        "C1": "P + Q < T",
+        "C2": "V + P > T + U",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "X: 20, Y: 30, Z: 40, A: 50, B: 60, C: 70, D: 80",
+        "P1": "(X + Y) < (Z + A) < B < C",
+        "P2": "D < (Z + C) < B < X",
+        "C1": "X + Y < B",
+        "C2": "D + X > B + C",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "J: 25, K: 35, L: 45, M: 55, N: 65, O: 75, P: 85",
+        "P1": "(J + K) < (L + M) < N < O",
+        "P2": "P < (L + O) < N < J",
+        "C1": "J + K < N",
+        "C2": "P + J > N + O",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    },
+    {
+        "question": "Q: 30, R: 40, S: 50, T: 60, U: 70, V: 80, W: 90",
+        "P1": "(Q + R) < (S + T) < U < V",
+        "P2": "W < (S + V) < U < Q",
+        "C1": "Q + R < U",
+        "C2": "W + Q > U + V",
+        "CorrectAnswer": "1. Both C1 and C2 are true."
+    }
+]
