@@ -1,2 +1,2 @@
-AT1.json
-AT2.json
+AT1
+AT2
