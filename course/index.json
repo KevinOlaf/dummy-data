@@ -1,0 +1,127 @@
+[
+  {
+    "title": "Flutter App Development",
+    "description": "Create beautiful cross-platform apps with Flutter framework",
+    "imageUrl": "https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1974",
+    "backgroundColor": {
+      "alpha": 1.0,
+      "red": 0.8941,
+      "green": 0.9647,
+      "blue": 1.0,
+      "colorSpace": "sRGB"
+    },
+    "textColor": {
+      "alpha": 1.0,
+      "red": 0.2902,
+      "green": 0.5686,
+      "blue": 1.0,
+      "colorSpace": "sRGB"
+    },
+    "duration": 60,
+    "progress": 0.4,
+    "authorName": "Mark Williams",
+    "authorAvatar": "https://randomuser.me/api/portraits/men/32.jpg",
+    "difficulty": "Advanced",
+    "isNew": true
+  },
+  {
+    "title": "Data Science Essentials",
+    "description": "Master the fundamentals of data analysis and visualization",
+    "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070",
+    "backgroundColor": {
+      "alpha": 1.0,
+      "red": 0.9333,
+      "green": 0.9137,
+      "blue": 1.0,
+      "colorSpace": "sRGB"
+    },
+    "textColor": {
+      "alpha": 1.0,
+      "red": 0.4824,
+      "green": 0.3804,
+      "blue": 1.0,
+      "colorSpace": "sRGB"
+    },
+    "duration": 55,
+    "progress": 0.2,
+    "authorName": "Emily Chen",
+    "authorAvatar": "https://randomuser.me/api/portraits/women/66.jpg",
+    "difficulty": "Beginner",
+    "isNew": false
+  },
+  {
+    "title": "Modern Marketing Strategies",
+    "description": "Explore contemporary digital marketing approaches and analytics",
+    "imageUrl": "https://images.unsplash.com/photo-1533750349088-cd871a92f312?q=80&w=2070",
+    "backgroundColor": {
+      "alpha": 1.0,
+      "red": 0.8863,
+      "green": 0.9686,
+      "blue": 0.9373,
+      "colorSpace": "sRGB"
+    },
+    "textColor": {
+      "alpha": 1.0,
+      "red": 0.1882,
+      "green": 0.7804,
+      "blue": 0.5765,
+      "colorSpace": "sRGB"
+    },
+    "duration": 35,
+    "progress": 0.0,
+    "authorName": "Daniel Brown",
+    "authorAvatar": "https://randomuser.me/api/portraits/men/68.jpg",
+    "difficulty": "Intermediate",
+    "isNew": true
+  },
+  {
+    "title": "Creative Writing Workshop",
+    "description": "Improve your storytelling skills and narrative techniques",
+    "imageUrl": "https://images.unsplash.com/photo-1455390582262-044cdead277a?q=80&w=1973",
+    "backgroundColor": {
+      "alpha": 1.0,
+      "red": 1.0,
+      "green": 0.9451,
+      "blue": 0.9020,
+      "colorSpace": "sRGB"
+    },
+    "textColor": {
+      "alpha": 1.0,
+      "red": 0.9098,
+      "green": 0.5804,
+      "blue": 0.3647,
+      "colorSpace": "sRGB"
+    },
+    "duration": 50,
+    "progress": 0.9,
+    "authorName": "Lisa Anderson",
+    "authorAvatar": "https://randomuser.me/api/portraits/women/58.jpg",
+    "difficulty": "Beginner",
+    "isNew": false
+  },
+  {
+    "title": "Financial Literacy 101",
+    "description": "Learn essential skills for managing personal finances and investments",
+    "imageUrl": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1976",
+    "backgroundColor": {
+      "alpha": 1.0,
+      "red": 0.9373,
+      "green": 0.9804,
+      "blue": 1.0,
+      "colorSpace": "sRGB"
+    },
+    "textColor": {
+      "alpha": 1.0,
+      "red": 0.3569,
+      "green": 0.7529,
+      "blue": 0.9216,
+      "colorSpace": "sRGB"
+    },
+    "duration": 40,
+    "progress": 0.3,
+    "authorName": "Robert Taylor",
+    "authorAvatar": "https://randomuser.me/api/portraits/men/22.jpg",
+    "difficulty": "Beginner",
+    "isNew": false
+  }
+]
